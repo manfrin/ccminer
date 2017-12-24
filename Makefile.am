@@ -111,7 +111,7 @@ endif
 #ccminer_LDADD += -lsodium
 ccminer_LDADD += -lcuda
 
-nvcc_ARCH = -gencode=arch=compute_35,code="sm_37,compute_35"
+nvcc_ARCH = -gencode=arch=compute_35,code=\"sm_37,compute_35\"
 #nvcc_ARCH  = -gencode=arch=compute_50,code=\"sm_50,compute_50\"
 #nvcc_ARCH = -gencode=arch=compute_60,code="sm_60,compute_60"
 #nvcc_ARCH += -gencode=arch=compute_52,code=\"sm_52,compute_52\"
