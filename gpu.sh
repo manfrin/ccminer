@@ -11,5 +11,6 @@ fi
 # Enable persistence mode
 nvidia-smi -pm 1
 
-nvidia-smi -ac 2505,875
-nvidia-smi --auto-boost-default=DISABLED
+# K80 specific
+# nvidia-smi -ac 2505,875
+# nvidia-smi --auto-boost-default=DISABLED
